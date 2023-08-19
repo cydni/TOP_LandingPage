@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Use flex-direction column to make footer stick to bottom of page */
+body{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Navbar Styles */
+.header-container{
+	background-color: #1f2937;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.navbar{
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.logo{
+	color: #f9faf8;
+	font-size: 24px;
+}
+
+.secondary{
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+.one{
+	margin-left: auto;
+}
+
+/* Hero Section */
+.hero{
+	display: flex;
+	padding: 100px;
+	width: 100%;
+	justify-content: space-around;
+	background-color: #1f2937;
+	gap: 30px;
+}
+
+.hero > *{
+	max-width: 50%;
+}
+
+.hero-text h1{
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: extra-bold;
+}
+
+.hero-button{
+	padding: 8px 35px;
+	background-color: #3882f6;
+	margin-top: 10px;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	border: 0;
+}
+
+.hero-img{
+	height: 250px;
+	width: 500px;
+	background-color: grey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*give height and width for flex basis */
+}
+
+.info{
+	padding: 25px 25px 50px 25px;
+
+}
+.info h2{
+	text-align: center;
+	padding: 35px;
+	font-weight: bold;
+}
+.info-container{
+	display: flex;
+	justify-content: center;
+	gap: 52px;
+	
+	padding-bottom: 45px;
+}
+
+.info-box{
+	max-width: 100px;
+	text-align: center;
+}
+
+.square{
+	height: 100px;
+	width: 100px;
+	border-radius: 8px;
+	border: solid 3px #3882f6;
+	margin-bottom: 10px;
+
+}
+
+.quote{
+	background-color: #e5e7eb;
+	/*display: flex;
+	justify-content: center;*/
+	padding: 130px;
+	width: 100%;
+
+}
+
+.quote-text{
+	font-size: 26px;
+	color: #1f2937;
+	font-style: italic;
+	font-weight: lighter;
+	max-width: 550px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+}
+
+.quote-credit{
+	max-width: 550px;
+	text-align: end;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.call-to-action{
+	color: #f9faf8;
+	display: flex;
+	justify-content: center;
+}
+
+.call-to-action p{
+	color: #efe7eb;
+}
+
+.call-to-action-container{
+	display: flex;
+	gap: 30px;
+	background-color: #3882f6;
+	margin: 90px;
+	padding: 35px 60px;
+	border-radius: 8px;
+}
+
+.call-to-action-button{
+	padding: 5px 25px;
+	background-color: #3882f6;
+	margin-top: 10px;
+	border-radius: 7px;
+	color: #f9faf8;
+	border: 1px solid #f9faf8;
+}
+
+/* Footer */
+.footer{
+	background-color: #1f2937;
+	font-size: 10px;
+	color: white;
+	margin-top: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
+/*Fix monospace font for footer when using the pre tag*/
+pre{
+	font-family: Arial, Helvetica, sans-serif
+}
